@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5679F0F1D4EA4310059EA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5679F0E1D4EA4310059EA44 /* AppDelegate.swift */; };
+		B5679F111D4EA4310059EA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5679F101D4EA4310059EA44 /* ViewController.swift */; };
+		B5679F141D4EA4310059EA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5679F121D4EA4310059EA44 /* Main.storyboard */; };
+		B5679F171D4EA4310059EA44 /* IntelliMen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5679F151D4EA4310059EA44 /* IntelliMen.xcdatamodeld */; };
+		B5679F191D4EA4310059EA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5679F181D4EA4310059EA44 /* Assets.xcassets */; };
+		B5679F1C1D4EA4310059EA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5679F1A1D4EA4310059EA44 /* LaunchScreen.storyboard */; };
+		B5679F271D4EA4310059EA44 /* IntelliMenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5679F261D4EA4310059EA44 /* IntelliMenTests.swift */; };
+		B5679F321D4EA4310059EA44 /* IntelliMenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5679F311D4EA4310059EA44 /* IntelliMenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5679F231D4EA4310059EA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5679F031D4EA4310059EA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5679F0A1D4EA4310059EA44;
+			remoteInfo = IntelliMen;
+		};
+		B5679F2E1D4EA4310059EA44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5679F031D4EA4310059EA44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5679F0A1D4EA4310059EA44;
+			remoteInfo = IntelliMen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5679F0B1D4EA4310059EA44 /* IntelliMen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliMen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5679F0E1D4EA4310059EA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5679F101D4EA4310059EA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5679F131D4EA4310059EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5679F161D4EA4310059EA44 /* IntelliMen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntelliMen.xcdatamodel; sourceTree = "<group>"; };
+		B5679F181D4EA4310059EA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5679F1B1D4EA4310059EA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5679F1D1D4EA4310059EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5679F221D4EA4310059EA44 /* IntelliMenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliMenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5679F261D4EA4310059EA44 /* IntelliMenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliMenTests.swift; sourceTree = "<group>"; };
+		B5679F281D4EA4310059EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5679F2D1D4EA4310059EA44 /* IntelliMenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliMenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5679F311D4EA4310059EA44 /* IntelliMenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliMenUITests.swift; sourceTree = "<group>"; };
+		B5679F331D4EA4310059EA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5679F081D4EA4310059EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F1F1D4EA4310059EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F2A1D4EA4310059EA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5679F021D4EA4310059EA44 = {
+			isa = PBXGroup;
+			children = (
+				B5679F0D1D4EA4310059EA44 /* IntelliMen */,
+				B5679F251D4EA4310059EA44 /* IntelliMenTests */,
+				B5679F301D4EA4310059EA44 /* IntelliMenUITests */,
+				B5679F0C1D4EA4310059EA44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5679F0C1D4EA4310059EA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5679F0B1D4EA4310059EA44 /* IntelliMen.app */,
+				B5679F221D4EA4310059EA44 /* IntelliMenTests.xctest */,
+				B5679F2D1D4EA4310059EA44 /* IntelliMenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5679F0D1D4EA4310059EA44 /* IntelliMen */ = {
+			isa = PBXGroup;
+			children = (
+				B5679F0E1D4EA4310059EA44 /* AppDelegate.swift */,
+				B5679F101D4EA4310059EA44 /* ViewController.swift */,
+				B5679F121D4EA4310059EA44 /* Main.storyboard */,
+				B5679F181D4EA4310059EA44 /* Assets.xcassets */,
+				B5679F1A1D4EA4310059EA44 /* LaunchScreen.storyboard */,
+				B5679F1D1D4EA4310059EA44 /* Info.plist */,
+				B5679F151D4EA4310059EA44 /* IntelliMen.xcdatamodeld */,
+			);
+			path = IntelliMen;
+			sourceTree = "<group>";
+		};
+		B5679F251D4EA4310059EA44 /* IntelliMenTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5679F261D4EA4310059EA44 /* IntelliMenTests.swift */,
+				B5679F281D4EA4310059EA44 /* Info.plist */,
+			);
+			path = IntelliMenTests;
+			sourceTree = "<group>";
+		};
+		B5679F301D4EA4310059EA44 /* IntelliMenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5679F311D4EA4310059EA44 /* IntelliMenUITests.swift */,
+				B5679F331D4EA4310059EA44 /* Info.plist */,
+			);
+			path = IntelliMenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5679F0A1D4EA4310059EA44 /* IntelliMen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5679F361D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMen" */;
+			buildPhases = (
+				B5679F071D4EA4310059EA44 /* Sources */,
+				B5679F081D4EA4310059EA44 /* Frameworks */,
+				B5679F091D4EA4310059EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelliMen;
+			productName = IntelliMen;
+			productReference = B5679F0B1D4EA4310059EA44 /* IntelliMen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5679F211D4EA4310059EA44 /* IntelliMenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5679F391D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMenTests" */;
+			buildPhases = (
+				B5679F1E1D4EA4310059EA44 /* Sources */,
+				B5679F1F1D4EA4310059EA44 /* Frameworks */,
+				B5679F201D4EA4310059EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5679F241D4EA4310059EA44 /* PBXTargetDependency */,
+			);
+			name = IntelliMenTests;
+			productName = IntelliMenTests;
+			productReference = B5679F221D4EA4310059EA44 /* IntelliMenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5679F2C1D4EA4310059EA44 /* IntelliMenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5679F3C1D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMenUITests" */;
+			buildPhases = (
+				B5679F291D4EA4310059EA44 /* Sources */,
+				B5679F2A1D4EA4310059EA44 /* Frameworks */,
+				B5679F2B1D4EA4310059EA44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5679F2F1D4EA4310059EA44 /* PBXTargetDependency */,
+			);
+			name = IntelliMenUITests;
+			productName = IntelliMenUITests;
+			productReference = B5679F2D1D4EA4310059EA44 /* IntelliMenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5679F031D4EA4310059EA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gabrieltargon;
+				TargetAttributes = {
+					B5679F0A1D4EA4310059EA44 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B5679F211D4EA4310059EA44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5679F0A1D4EA4310059EA44;
+					};
+					B5679F2C1D4EA4310059EA44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B5679F0A1D4EA4310059EA44;
+					};
+				};
+			};
+			buildConfigurationList = B5679F061D4EA4310059EA44 /* Build configuration list for PBXProject "IntelliMen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5679F021D4EA4310059EA44;
+			productRefGroup = B5679F0C1D4EA4310059EA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5679F0A1D4EA4310059EA44 /* IntelliMen */,
+				B5679F211D4EA4310059EA44 /* IntelliMenTests */,
+				B5679F2C1D4EA4310059EA44 /* IntelliMenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5679F091D4EA4310059EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5679F1C1D4EA4310059EA44 /* LaunchScreen.storyboard in Resources */,
+				B5679F191D4EA4310059EA44 /* Assets.xcassets in Resources */,
+				B5679F141D4EA4310059EA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F201D4EA4310059EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F2B1D4EA4310059EA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5679F071D4EA4310059EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5679F111D4EA4310059EA44 /* ViewController.swift in Sources */,
+				B5679F171D4EA4310059EA44 /* IntelliMen.xcdatamodeld in Sources */,
+				B5679F0F1D4EA4310059EA44 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F1E1D4EA4310059EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5679F271D4EA4310059EA44 /* IntelliMenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5679F291D4EA4310059EA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5679F321D4EA4310059EA44 /* IntelliMenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5679F241D4EA4310059EA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5679F0A1D4EA4310059EA44 /* IntelliMen */;
+			targetProxy = B5679F231D4EA4310059EA44 /* PBXContainerItemProxy */;
+		};
+		B5679F2F1D4EA4310059EA44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5679F0A1D4EA4310059EA44 /* IntelliMen */;
+			targetProxy = B5679F2E1D4EA4310059EA44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5679F121D4EA4310059EA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5679F131D4EA4310059EA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5679F1A1D4EA4310059EA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5679F1B1D4EA4310059EA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5679F341D4EA4310059EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5679F351D4EA4310059EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5679F371D4EA4310059EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntelliMen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5679F381D4EA4310059EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntelliMen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5679F3A1D4EA4310059EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntelliMenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliMen.app/IntelliMen";
+			};
+			name = Debug;
+		};
+		B5679F3B1D4EA4310059EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntelliMenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliMen.app/IntelliMen";
+			};
+			name = Release;
+		};
+		B5679F3D1D4EA4310059EA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntelliMenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelliMen;
+			};
+			name = Debug;
+		};
+		B5679F3E1D4EA4310059EA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntelliMenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.gabrieltargon.IntelliMenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelliMen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5679F061D4EA4310059EA44 /* Build configuration list for PBXProject "IntelliMen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5679F341D4EA4310059EA44 /* Debug */,
+				B5679F351D4EA4310059EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5679F361D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5679F371D4EA4310059EA44 /* Debug */,
+				B5679F381D4EA4310059EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5679F391D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5679F3A1D4EA4310059EA44 /* Debug */,
+				B5679F3B1D4EA4310059EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5679F3C1D4EA4310059EA44 /* Build configuration list for PBXNativeTarget "IntelliMenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5679F3D1D4EA4310059EA44 /* Debug */,
+				B5679F3E1D4EA4310059EA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5679F151D4EA4310059EA44 /* IntelliMen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5679F161D4EA4310059EA44 /* IntelliMen.xcdatamodel */,
+			);
+			currentVersion = B5679F161D4EA4310059EA44 /* IntelliMen.xcdatamodel */;
+			path = IntelliMen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5679F031D4EA4310059EA44 /* Project object */;
+}
