@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="F1A-pv-LtW">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+            <string>Roboto-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IntelliMen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginScreen" id="BYZ-38-t0r" customClass="LoginViewController" customModule="IntelliMen" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,45 +24,154 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PROJETO" translatesAutoresizingMaskIntoConstraints="NO" id="MbL-ol-NQ3">
+                                <rect key="frame" x="20" y="311" width="560" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MbL-ol-NQ3" secondAttribute="height" multiplier="40:1" id="IvC-Hs-MWV"/>
+                                    <constraint firstAttribute="height" constant="14" id="ftj-Ch-xdZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="INTELLIMEN" translatesAutoresizingMaskIntoConstraints="NO" id="5qf-AJ-0hD">
+                                <rect key="frame" x="20" y="338" width="560" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="6Ni-lG-RTv"/>
+                                    <constraint firstAttribute="width" secondItem="5qf-AJ-0hD" secondAttribute="height" multiplier="140:9" id="xzB-3x-KZj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPX-B5-NGJ">
+                                <rect key="frame" x="20" y="414" width="560" height="45"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="B2H-P7-Bvr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                <state key="normal" title="O QUE É O INTELLIMEN?">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="descriptionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mOc-cq-stY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wh-4l-3Eb" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="20" y="467" width="560" height="45"/>
+                                <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="ENTRAR COM FACEBOOK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntelliMen-icon (white)" translatesAutoresizingMaskIntoConstraints="NO" id="Rux-86-61C">
+                                <rect key="frame" x="163" y="72" width="275" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Rux-86-61C" secondAttribute="height" multiplier="11:8" id="IuZ-YK-1h0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4wh-4l-3Eb" secondAttribute="bottom" constant="88" id="0d9-uD-ejV"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="trailing" secondItem="MbL-ol-NQ3" secondAttribute="trailing" id="2Y9-0p-O3u"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="leading" secondItem="MbL-ol-NQ3" secondAttribute="leading" id="2pV-iO-SVk"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3in-Pp-iro"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="trailing" secondItem="FPX-B5-NGJ" secondAttribute="trailing" id="4ht-0H-9g7"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="centerX" secondItem="Rux-86-61C" secondAttribute="centerX" id="9Ao-K5-To8"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="leading" secondItem="FPX-B5-NGJ" secondAttribute="leading" id="DUb-gr-hgc"/>
+                            <constraint firstItem="MbL-ol-NQ3" firstAttribute="top" secondItem="Rux-86-61C" secondAttribute="bottom" constant="39" id="Ds6-3d-DnK"/>
+                            <constraint firstItem="Rux-86-61C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="Hoi-l9-BbM"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="leading" secondItem="4wh-4l-3Eb" secondAttribute="leading" id="ZUD-jG-TkC"/>
+                            <constraint firstAttribute="bottom" secondItem="5qf-AJ-0hD" secondAttribute="bottom" constant="226" id="a8C-15-g6e"/>
+                            <constraint firstItem="FPX-B5-NGJ" firstAttribute="top" secondItem="5qf-AJ-0hD" secondAttribute="bottom" constant="40" id="dHT-LV-Xuk"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="trailing" secondItem="4wh-4l-3Eb" secondAttribute="trailing" id="k9w-9h-Y78"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="top" secondItem="MbL-ol-NQ3" secondAttribute="bottom" constant="13" id="oVx-95-nla"/>
+                            <constraint firstItem="5qf-AJ-0hD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pay-s6-fKo"/>
+                            <constraint firstItem="4wh-4l-3Eb" firstAttribute="top" secondItem="FPX-B5-NGJ" secondAttribute="bottom" constant="8" symbolic="YES" id="yOp-ab-mET"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonLoginFacebook" destination="4wh-4l-3Eb" id="L5d-ao-yBS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="429"/>
         </scene>
-        <!--Collection View Controller-->
-        <scene sceneID="Gpo-u7-Q4S">
+        <!--View Controller-->
+        <scene sceneID="nK1-LE-pZq">
             <objects>
-                <collectionViewController id="Eh9-k0-f5G" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="WYh-EQ-VFb">
+                <viewController storyboardIdentifier="ProntoScreen" id="JW4-Vq-6Ae" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XcY-Ug-LxC"/>
+                        <viewControllerLayoutGuide type="bottom" id="TXL-0X-eGF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K6y-Gy-K3U">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Nyc-vr-vvh">
-                            <size key="itemSize" width="80" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRONTO!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEh-Sq-1mc">
+                                <rect key="frame" x="263" y="289" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mEh-Sq-1mc" firstAttribute="centerY" secondItem="K6y-Gy-K3U" secondAttribute="centerY" id="esZ-lQ-f0B"/>
+                            <constraint firstItem="mEh-Sq-1mc" firstAttribute="centerX" secondItem="K6y-Gy-K3U" secondAttribute="centerX" id="vEZ-cg-Bgi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HkF-YG-3Ty" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197" y="429"/>
+        </scene>
+        <!--Challenge Collection View Controller-->
+        <scene sceneID="ndh-x0-LZZ">
+            <objects>
+                <collectionViewController storyboardIdentifier="ChallengeScreen" id="F1A-pv-LtW" customClass="ChallengeCollectionViewController" customModule="IntelliMen" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pBF-uq-dYs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wP1-Ms-aUE">
+                            <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
+                        <label key="backgroundView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Jwa-vW-tfX">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3ZU-g9-HBw">
-                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5M4-r1-oSc">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="Eh9-k0-f5G" id="UZS-Kq-ur0"/>
-                            <outlet property="delegate" destination="Eh9-k0-f5G" id="0aY-Yy-Wu8"/>
+                            <outlet property="dataSource" destination="F1A-pv-LtW" id="fvz-tf-Lgx"/>
+                            <outlet property="delegate" destination="F1A-pv-LtW" id="6Jn-0t-ZtM"/>
                         </connections>
                     </collectionView>
                 </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xh6-pJ-r50" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c20-5O-Bde" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1011" y="429"/>
+            <point key="canvasLocation" x="1197" y="1122"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="INTELLIMEN" width="465" height="45"/>
+        <image name="IntelliMen-icon (white)" width="365" height="384"/>
+        <image name="PROJETO" width="225" height="18"/>
+    </resources>
 </document>

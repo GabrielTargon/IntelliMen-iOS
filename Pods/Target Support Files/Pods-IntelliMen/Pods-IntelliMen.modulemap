@@ -1,0 +1,6 @@
+framework module Pods_IntelliMen {
+  umbrella header "Pods-IntelliMen-umbrella.h"
+
+  export *
+  module * { export * }
+}
